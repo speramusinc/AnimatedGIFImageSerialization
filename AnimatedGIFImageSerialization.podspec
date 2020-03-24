@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.source_files = 'AnimatedGIFImageSerialization'
   s.requires_arc = true
 
-  s.ios.frameworks = 'MobileCoreServices', 'ImageIO', 'CoreGraphics'
+  s.ios.frameworks = 'CoreServices', 'ImageIO', 'CoreGraphics'
   s.ios.deployment_target = '5.0'
 end
