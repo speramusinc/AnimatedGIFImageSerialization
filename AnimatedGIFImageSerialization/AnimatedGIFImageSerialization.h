@@ -21,9 +21,6 @@
 // THE SOFTWARE.
 
 @import Foundation;
-
-#if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
-
 @import UIKit;
 
 NS_ASSUME_NONNULL_BEGIN
@@ -97,6 +94,3 @@ extern __attribute__((overloadable)) NSData * _Nullable UIImageAnimatedGIFRepres
 extern NSString * const AnimatedGIFImageErrorDomain;
 
 NS_ASSUME_NONNULL_END
-
-#endif
-

@@ -22,6 +22,7 @@
 
 #import "AnimatedGIFImageSerialization.h"
 
+@import UIKit;
 @import ImageIO;
 @import MobileCoreServices;
 
